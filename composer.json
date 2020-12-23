@@ -25,7 +25,7 @@
         "drupal/core-project-message": "^9.0.0",
         "drupal/core-recommended": "^9.0.0",
         "drush/drush": "~10.0",
-        "oomphinc/composer-installers-extender": "^2.0",
+        "oomphinc/composer-installers-extender": "^1.1",
         "zaporylie/composer-drupal-optimizations": "^1.1"
     },
     "require-dev": {
@@ -46,7 +46,7 @@
                 "web-root": "web/"
             }
         },
-        "installer-types": ["bower-asset", "npm-asset"],
+        "installer-types": ["library", "bower-asset", "npm-asset"],
         "installer-paths": {
             "web/core": ["type:drupal-core"],
             "web/libraries/{$name}": ["type:drupal-library", "type:git", "type:bower-asset", "type:npm-asset"],
