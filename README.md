@@ -50,7 +50,7 @@ $ gulp compile
 
 **3) Run Drupal installation**
 
-Go to http://yourserver.local/install.php and follow the steps of configuration.
+Go to http://yourserver.local/core/install.php and follow the steps of configuration.
 
 ## How to work with the subtheme? ##
 
