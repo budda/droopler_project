@@ -43,7 +43,7 @@ $ npm install --global gulp-cli
 $ cd web/profiles/contrib/droopler/themes/custom/droopler_theme
 $ npm install
 $ gulp compile
-$ cd web/themes/custom/droopler_subtheme
+$ cd ../../../../../../../web/themes/custom/droopler_subtheme
 $ npm install
 $ gulp compile
 ```
